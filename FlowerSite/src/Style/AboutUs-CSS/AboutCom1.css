@@ -1,0 +1,57 @@
+/* AboutHousing.css */
+.aboutUs-container {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #FFEDE3;
+  }
+  
+  .aboutUs-content {
+    flex: 1;
+  }
+  
+  .aboutUs-title {
+    font-size: 3rem;
+    color: #0D7749;
+    margin-bottom: 1rem;
+  }
+  
+  .aboutUs-description {
+    font-size: 1.125rem;
+    color: #4F4F4F;
+    margin-bottom: 2rem;
+  }
+  
+  .aboutUs-contact-button {
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #0D7749;
+    border-radius: 8px;
+    background: transparent;
+    color: #0D7749;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .aboutUs-image-container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .aboutUs-image {
+    width: 80%;
+    border-radius: 2rem;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 25%);
+  }
+  
+  .aboutUs-decorative-shape {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 60px;
+    height: 60px;
+    background-color: #FF782D;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+  
