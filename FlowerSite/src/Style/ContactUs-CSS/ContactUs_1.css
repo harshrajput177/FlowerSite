@@ -128,20 +128,22 @@
   }
 
   .contact-info {
-    width:90vw;
-    height: 110vw;
+    width:81vw;
+    height: 180vw;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1.3rem;
   }
 
   .info-item {
     width: 100px;
     height: 100px;
+    margin-top: 5vw;
     top: 0;
   }
 
   .outerPart-Contact-info {
-    height: 50vh;
+    width: 95%;
+    height: 90vh;
     padding: 2rem 1rem;
   }
 }
