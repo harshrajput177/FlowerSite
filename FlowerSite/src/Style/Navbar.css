@@ -1,70 +1,120 @@
 .navbar-flower {
-    display: flex;
-    align-items: center;
-    position: fixed; /* Change from sticky to fixed */
-    top: 0;
-    left: 0; /* Make sure the navbar sticks to the left edge */
-    width: 100%; /* Ensure the navbar spans the full width */
-    justify-content: space-around;
-    padding: 18px 20px;
-    background-color: #dddddd;
-    z-index: 1000; /* Make sure it's above other content */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-around;
+  padding: 18px 20px;
+  background-color: #efefef;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(97, 97, 97, 0.233);
 }
 
-  
-  .navbar-flower .logo-flower {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .navbar-flower .logo-flower img {
-    height: 30px;
-  }
-  
-  .navbar-flower .logo-flower span {
-    font-size: 20px;
-    font-weight: bold; /* Change 'font-style' to 'font-weight' */
-    color:black;
-  }
-  
-  .navbar-flower .menu-flower {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    color: #555;
-  }
-  
-  .navbar-flower .menu-flower li {
-    cursor: pointer;
-  }
-  
-  .navbar-flower .menu-flower li:hover {
-    color: coral;
-    text-decoration: underline;
-  }
-  
-  .navbar-flower .icons-flower {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  .navbar-flower .icons-flower svg {
-    cursor: pointer;
-    color: #555;
-  }
+.logo-flower {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-  .Flower-icon {
-    color: coral !important;
-    font-size: 24px; /* Optional: adjust size if needed */
+.logo-flower img {
+  height: 50px;
+}
+
+.logo-flower span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.menu-flower {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #f3f3f3ec;
+}
+
+.menu-flower li {
+  cursor: pointer;
+}
+
+.menu-flower li a {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.menu-flower li a:hover {
+  color: coral !important;
+  text-decoration: underline;
+}
+
+.icons-flower {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icons-flower svg {
+  cursor: pointer;
+  color: #555;
+}
+
+.Flower-icon {
+  color: coral !important;
+  font-size: 1.2rem;
 }
 
 .icons-flower p {
-  color: #e16f03; /* Ensure the phone number also matches */
-    margin: 0;
+  color: #e16f03;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-flower {
+    padding: 18px;  /* Adjust padding for mobile view */
+    justify-content: space-between;
+  }
+
+  .menu-flower {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 20px;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    z-index: 9;
+    margin: 0;  /* Remove any margin */
+  }
+
+  .menu-flower.open {
+    transform: translateX(0);
+  }
+  
+  .menu-icon {
+    display: block;
+    font-size: 2rem;
+    color: #333;
+  }
+
+  /* Hide other icons */
+  .icons-flower svg,
+  .icons-flower p {
+    display: none;
+  }
 }

@@ -1,154 +1,249 @@
 /* General Hero Section Styling */
 .hero-section {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  background-image: url('../../public/istockphoto-1401295466-612x612.jpg'); /* Add the background image here */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.View-all-link {
+  padding: 10px 22px;
+  background-color: #dedede87;
+  border: 1px solid rgba(0, 0, 0, 0.74);
+}
+
+.shop-tag {
+  width: 280px;
+  background-color: #dfdfdfc3;
+  color: rgba(51, 51, 51, 0.475);
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 32px;
+  margin-bottom: 16px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.highlight {
+  color: coral;
+}
+
+.hero-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 32px;
+}
+
+.button-group {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.shop-button {
+  background-color: coral;
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1px solid rgb(68, 68, 68);
+  transition: background-color 0.3s ease;
+}
+
+.shop-button:hover {
+  background-color: #e96b00;
+}
+
+.rating-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-images {
+  display: flex;
+  align-items: center;
+}
+
+.user-images img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-right: -10px;
+}
+
+.user-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.rating-info {
+  font-size: 16px;
+  color: #555;
+}
+
+.rating-score {
+  font-weight: bold;
+  color: #ff7b00;
+}
+
+.rating-subtext {
+  color: #777;
+}
+
+/* Hero Image Section Styling */
+.hero-image-wrapper {
+  position: relative;
+}
+
+.hero-image {
+  margin-top: 80px;
+  width: 350px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info-card {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 8px;
+}
+
+.info-card .icon {
+  font-size: 24px;
+  color: #ff7b00;
+}
+
+.fast-delivery {
+  left: 20px;
+}
+
+.secure-payment {
+  right: 20px;
+}
+
+/* Mobile View Styling - Alternative */
+@media (max-width: 768px) {
+  /* Adjust hero section layout for mobile */
+  .hero-section {
+    padding: 40px 20px;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
-    padding: 60px 100px;
-    background-image: url('../../public/istockphoto-1401295466-612x612.jpg'); /* Add the background image here */
-    background-size: cover; /* Ensures the image covers the entire section */
-    background-position: center center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    background-attachment: scroll;  /* Remove fixed background image on mobile for performance */
   }
-  
+
+  /* Adjust hero content layout */
   .hero-content {
-    max-width: 600px;
+    max-width: 100%;
+    margin-bottom: 20px;
   }
-  
-  .View-all-link {
-    padding: 10px 22px;
-    background-color: #dedede87;
-    border: 1px solid rgba(0, 0, 0, 0.74);
-  }
-  
-  .shop-tag {
-    width: 280px;
-    background-color: #dfdfdfc3;
-    color: rgba(51, 51, 51, 0.475);
-    padding: 8px 12px;
-    font-weight: bold;
-    border-radius: 32px;
-    margin-bottom: 16px;
-  }
-  
+
   .hero-title {
-    font-size: 48px;
-    font-weight: 700;
-    margin: 0;
+    margin-top: 50px;
+    font-size: 1.9rem;
+    line-height: 1.2;
   }
-  
-  .highlight {
-    color: coral;
-  }
-  
+
   .hero-description {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 32px;
+    font-size: 1rem;
+    margin: 30px  0;
   }
-  
+
+  /* Move button and rating sections below the hero image */
   .button-group {
+    width: 100%;
     display: flex;
-    gap: 16px;
-    margin-bottom: 32px;
-  }
-  
-  .shop-button {
-    background-color: coral;
-    color: white;
-    font-weight: bold;
-    padding: 12px 24px;
-    border-radius: 8px;
-    border: 1px solid rgb(68, 68, 68);
-    transition: background-color 0.3s ease;
-  }
-  
-  .shop-button:hover {
-    background-color: #e96b00;
-  }
-  
-  .rating-section {
-    display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 12px;
+    align-items: center;  /* Align the buttons in the center */
+    margin-top: 20px;
   }
-  
-  .user-images {
-    display: flex;
-    align-items: center;
+
+  .shop-button {
+    padding: 12px;
+    width: 36%;
   }
-  
-  .user-images img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid white;
-    margin-right: -10px;
-  }
-  
-  .user-placeholder {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #ddd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-  }
-  
-  .rating-info {
-    font-size: 16px;
-    color: #555;
-  }
-  
-  .rating-score {
-    font-weight: bold;
-    color: #ff7b00;
-  }
-  
-  .rating-subtext {
-    color: #777;
-  }
-  
-  /* Hero Image Section Styling */
+
+  /* Hero Image Section */
   .hero-image-wrapper {
-    position: relative;
+    width: 80%;
+    margin: 20px auto;
+    display: block;
   }
-  
+
   .hero-image {
-    margin-top: 80px;
-    width: 350px;
-    height: auto;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
     border-radius: 50%;
-    object-fit: cover;
   }
-  
+
+  /* Adjust info card for smaller screens */
   .info-card {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    padding: 12px 16px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    padding: 10px 14px;
+    box-shadow: none;
+    gap: 5px;
+    font-size: 14px;
+  }
+
+  /* Rating Section */
+  .rating-section {
+    flex-direction: column;
     gap: 8px;
+    margin-top: 20px;  /* Add space between buttons and rating */
+    align-items: center;
   }
-  
-  .info-card .icon {
-    font-size: 24px;
-    color: #ff7b00;
+
+  .rating-info {
+    font-size: 14px;
   }
-  
-  .fast-delivery {
-    left: 20px;
+
+  .rating-score {
+    font-size: 14px;
   }
-  
-  .secure-payment {
-    right: 20px;
+
+  /* Hide user images in mobile view to simplify layout */
+  .user-images {
+    display: none;
   }
-  
+
+  /* Move the "user-images" section below rating */
+  .rating-section {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,79 @@
+/* Services.css */
+
+.Services-container {
+  display: flex;
+  align-items: center;
+  padding: 4vw 8vw;
+  gap: 2%;
+  background-color: #eeedecbd;
+}
+
+.Services-content {
+  margin-left: 20px;
+  flex: 1;
+}
+
+.Services-title {
+  font-size: 2.2rem;
+  color: rgb(12, 12, 12);
+  margin-bottom: 2rem;
+}
+
+.Services-description {
+  text-align: justify;
+  font-size: 1.1rem;
+  color: #4F4F4F;
+  line-height: 1.8;
+  word-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.Services-contact-button {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid coral;
+  border-radius: 8px;
+  background: transparent;
+  color: coral;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Services-image-container {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.Services-image {
+  width: 32vw;
+  height: 28vw;
+  border-radius: 2rem;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .Services-container {
+      flex-direction: column;
+      padding: 2rem 4vw;
+  }
+
+  .Services-content {
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .Services-title {
+      font-size: 1.8rem;
+  }
+
+  .Services-description {
+      font-size: 1rem;
+  }
+
+  .Services-image {
+      width: 80vw;
+      height: auto;
+      margin-top: 2rem;
+  }
+}

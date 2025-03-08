@@ -1,79 +1,138 @@
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    background-color:#dedede87;
-    min-height: 100vh;
-    margin-top: 50px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #dedede87;
+  min-height: 100vh;
+  margin-top: 50px;
+}
+
+.contact-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: coral;
+  margin-bottom: 1rem;
+}
+
+.contact-description {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  max-width: 60rem;
+  color: gray;
+}
+
+.contact-form-container {
+  background-color: coral;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  width: 100%;
+  max-width: 20rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-label {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.contact-input {
+  width: 100%;
+  padding: 0.5rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 1rem;
+}
+
+.contact-input::placeholder {
+  color: rgb(234, 234, 234);
+  font-size: 0.8rem;
+}
+
+.contact-submit {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: white;
+  color: #0a0a0a;
+  border-radius: 9999px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-submit:hover {
+  background-color: #9d4c0065;
+  color: white;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
   .contact-title {
-    font-size: 2.2rem;
-    font-weight: bold;
-    color:coral;
-    margin-bottom: 1rem;
+      font-size: 1.8rem; /* Slightly smaller title */
   }
-  
+
   .contact-description {
-    text-align: center;
-    font-size: 0.9rem;
-    margin-bottom: 2rem;
-    max-width: 60rem;
-    color: gray;
+      font-size: 0.85rem; /* Smaller description font size */
+      padding: 0 1rem; /* Add some padding for mobile */
   }
-  
+
   .contact-form-container {
-    background-color: coral;
-    /* background-color: #fd800ad7; */
-    /* background-color: #ff7b00; */
-    padding: 2rem;
-    border-radius: 1.25rem;
-    width: 100%;
-    max-width: 20rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 90%; /* Form takes more space on smaller screens */
+      padding: 1.5rem; /* Reduce padding for mobile */
   }
-  
+
   .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+      gap: 1rem; /* Reduce gap between form elements */
   }
-  
-  .contact-label {
-    color: white;
-    margin-bottom: 0.5rem;
-  }
-  
+
   .contact-input {
-    width: 100%;
-    padding: 0.5rem;
-    background: transparent;
-    border: none;
-    /* border-bottom: 1px solid white; */
-    color: white;
-    font-size: 1rem;
+      padding: 0.8rem; /* Increase input padding for better touch interaction */
+      font-size: 1rem; /* Adjust font size for readability */
   }
-  
-  .contact-input::placeholder {
-    color: rgb(234, 234, 234);
-    font-size: 0.8rem;
-  }
-  
+
   .contact-submit {
-    width: 100%;
-    padding: 0.75rem;
-    background-color: white;
-    color: #0a0a0a;
-    border-radius: 9999px;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
+      padding: 0.75rem;
+      font-size: 1rem; /* Slightly larger button text for touch-friendly interaction */
   }
-  
-  .contact-submit:hover {
-    background-color: #9d4c0065;
-    color: white;
+}
+
+@media (max-width: 480px) {
+  .contact-title {
+      font-size: 1.5rem; /* Further reduce title size */
   }
+
+  .contact-description {
+      font-size: 0.8rem; /* Even smaller description font size */
+  }
+
+  .contact-form-container {
+      max-width: 80%; /* Form takes full width */
+      padding: 1rem;
+  }
+
+  .contact-input {
+    width: 80%;
+      padding: 0.75rem; /* Adjust padding for smaller screens */
+  }
+
+  .contact-submit {
+      font-size: 1.1rem; /* Make the submit button text larger */
+  }
+
+
+  .contact-form-inputs{
+    width: 90%;
+  }
+}
+
   

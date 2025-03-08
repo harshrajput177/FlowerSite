@@ -20,6 +20,11 @@ const AboutUs = () => {
                 choosing only the freshest in-season stems to create unique, stylish
                 bouquets. You won't find bouquets like ours anywhere else.
               </p>
+              <p>
+                Our team of florists has a wealth of knowledge and experience,
+                choosing only the freshest in-season stems to create unique, stylish
+                bouquets. You won't find bouquets like ours anywhere else.
+              </p>
             </div>
 
             {/* Right Side - Image with Shape */}

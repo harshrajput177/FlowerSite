@@ -1,0 +1,54 @@
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    padding: 4rem 7vw;
+    margin-left: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .stats-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .AboutCom-4-card {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.169);
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+  }
+  
+  .AboutCom-4-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .AboutCom-4-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .AboutCom-4-icon{
+    color: #1c9147; 
+  }
+  
+  .AboutCom-4-count {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:coral; /* Orange color */
+    margin: 0.5rem 0;
+  }
+  
+  .AboutCom-4-label {
+    font-size: 1.25rem;
+    color: #151515; /* Dark green */
+  }
+  
+  .AboutCom-4-description {
+    font-size: 0.8rem;
+    color: #6b7280; /* Gray color */
+    margin-top: 0.5rem;
+  }

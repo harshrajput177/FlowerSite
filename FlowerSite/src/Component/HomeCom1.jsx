@@ -38,14 +38,6 @@ const FlowerShopHeroSection = () => {
 
       <div className="hero-image-wrapper">
         <img className="hero-image" src={img4} alt="Girl with flowers" />
-        {/* <Card className="info-card fast-delivery">
-          <Truck className="icon" />
-          <span>Fast Delivery</span>
-        </Card>
-        <Card className="info-card secure-payment">
-          <ShieldCheck className="icon" />
-          <span>Secure Payment</span>
-        </Card> */}
       </div>
     </div>
   );

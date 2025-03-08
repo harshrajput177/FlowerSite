@@ -12,12 +12,15 @@ export default function Footer() {
       <div className="footer-content">
         {/* Brand Info */}
         <div className="footer-section">
-          <h2 className="footer-title">Gamboori.</h2>
-          <p className="footer-description">Welcome and open yourself to your truest love this year with us! With the Release Process</p>
+        <h2 className="footer-title">Ritesh Kumar</h2>
+<p className="footer-description">
+  Transforming spaces with the beauty of flowers, Ritesh Kumar offers bespoke floral design services that bring elegance and charm to every occasion. Whether it's weddings, events, or everyday moments, Ritesh crafts unique floral arrangements that reflect your vision and create lasting impressions.
+  </p>
+
           <div className="social-icons">
-            <FacebookIcon className="icon" />
-            <InstagramIcon className="icon" />
-            <WhatsAppIcon className="icon" />
+            <FacebookIcon className="social-icon" />
+            <InstagramIcon className="social-icon" />
+            <WhatsAppIcon className="social-icon" />
             {/* <FaGooglePlusG className="icon" /> */}
           </div>
         </div>

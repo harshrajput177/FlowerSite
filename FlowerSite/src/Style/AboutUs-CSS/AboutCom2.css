@@ -1,0 +1,96 @@
+/* ReasonToChoose.css */
+
+.reason-container {
+  display: flex;
+  align-items: center;
+  padding: 6rem 8vw;
+}
+
+.image-container {
+  position: relative;
+  max-width: 400px;
+  margin-right: 2rem;
+}
+
+.orange-icon {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  color: orange;
+  font-size: 3rem;
+}
+
+.reason-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.content-container {
+  flex: 1;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #0e1211;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.AboutCom2-icon {
+  color: #10b981;
+  font-size: 2rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin: 0;
+  color: #065f46;
+}
+
+.card-text {
+  margin: 0.25rem 0 0;
+  color: #374151;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .reason-container {
+      flex-direction: column;
+      padding: 3rem 4vw;
+  }
+
+  .image-container {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 2rem;
+  }
+
+  .heading {
+      font-size: 1.75rem;
+  }
+
+  .card-item {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .AboutCom2-icon {
+      font-size: 1.5rem;
+  }
+}

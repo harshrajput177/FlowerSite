@@ -11,7 +11,7 @@ const ContactForm = () => {
 
       <div className="contact-form-container">
         <form className="contact-form">
-          <div>
+          <div  className='contact-form-inputs'>
             <label className="contact-label">Email</label>
             <input
               type="email"
@@ -19,7 +19,7 @@ const ContactForm = () => {
               className="contact-input"
             />
           </div>
-          <div>
+          <div   className='contact-form-inputs'>
             <label className="contact-label">Name</label>
             <input
               type="text"
@@ -27,7 +27,7 @@ const ContactForm = () => {
               className="contact-input"
             />
           </div>
-          <div>
+          <div   className='contact-form-inputs'>
             <label className="contact-label">Message</label>
             <textarea
               placeholder="Enter your message"

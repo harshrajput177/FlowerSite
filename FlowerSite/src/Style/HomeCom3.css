@@ -1,90 +1,146 @@
 .about-container {
-    padding: 1rem 2rem;
-    padding-bottom: 6rem; /* Add padding to prevent footer overlap */
-    color: white;
-    min-height: 89vh; /* Ensure it takes full viewport height */
-    box-sizing: border-box;
-    margin-bottom: 50px;
-    background-color: #ff7b000f;
+  padding: 1rem 2rem;
+  padding-bottom: 6rem; /* Add padding to prevent footer overlap */
+  color: white;
+  min-height: 39vw; /* Ensure it takes full viewport height */
+  box-sizing: border-box;
+  margin-bottom: 4vw;
+  background-color: #ff7b000f;
 }
-
 
 .about-contents {
-   align-items: center;
-    z-index: 2;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    max-width:1200px;
-    background-color: #ff7b0000;
-    height: 350px;
-    word-spacing: 2px;
-   
-    color: rgb(255, 255, 255);
+  align-items: center;
+  z-index: 2;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 110vw;
+  background-color: #ff7b0000;
+  height: 23vw;
+  word-spacing: 2px;
+  color: rgb(255, 255, 255);
 }
 
+.about-contents h1 {
+  font-size: 2.1rem;
+  margin-bottom: 3vw;
+  color: rgb(41, 40, 40);
+  text-align: center;
+}
 
-  .about-contents h1{
-    font-size: 2.1rem;
-    margin-bottom: 30px;
-    color: rgb(41, 40, 40);
-    text-align: center;
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 6rem;
+}
+
+.about-text-box {
+  max-width: 47vw;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  padding: 2rem;
+  color: rgb(40, 38, 38);
+  border-radius: 8px;
+  border: 2px solid coral;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+  line-height: 1.9;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+.about-text-box p {
+  margin-bottom: 10px;
+}
+
+.about-image-wrapper {
+  position: relative;
+  width: 50%;
+}
+
+.about-image-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: coral;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.about-image {
+  position: relative;
+  width: 100%;
+  height: 23vw;
+  border-radius: 8px;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .about-contents h1 {
+      font-size: 1.8rem; /* Reduce font size */
+      margin: 30px 0 ;
+      height: auto;
   }
 
- 
+  .about-content {
+      flex-direction: column; /* Stack elements vertically */
+      gap: 3rem;
+      margin-bottom: 30px;
+  }
+
+
+  .about-container {
+    padding: 0 2rem;
+    padding-bottom: 6rem; /* Add padding to prevent footer overlap */
+    color: white;
+    min-height: 260vw;
+  }
+
+  .about-text-box {
+      max-width: 90%; /* Allow text box to take more width */
+      padding: 1rem;
+      font-size: 0.9rem; /* Slightly smaller font size */
+  }
+
+  .about-image-wrapper {
+      width: 100%; /* Make the image take full width */
+      margin-bottom: 1.5rem; /* Add margin at the bottom */
+  }
+
+  .about-image {
+      height: 280px; /* Adjust image height for mobile view */
+      border-radius: 50%;
+      margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-contents h1 {
+      font-size: 1.3rem; /* Further reduce font size */
+      margin-bottom: 15px;
+  }
+
   
   .about-content {
-    display: flex;
-    /* max-width: 1120px; */
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    gap: 6rem;
-  }
+    flex-direction: column; /* Stack elements vertically */
+    gap: 3rem;
+    margin-bottom: 30px;
+}
 
- 
-  
   .about-text-box {
-    max-width: 560px;
-    display: flex;
-    flex-direction: column;
-    background-color:transparent;
-    padding: 2rem;
-    color: rgb(40, 38, 38);
-    border-radius: 8px;
-    border: 2px solid  coral;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-style: italic;
-    line-height: 1.9;
-    letter-spacing: 1px;
-    font-size: 1rem;
+      max-width: 100%; /* Full width text box */
+      padding: 1rem;
+      font-size: 0.85rem;
   }
 
-  .about-text-box p{
-    margin-bottom: 10px;
-  }
-  
-  .about-image-wrapper {
-    position: relative;
-    width: 50%;
-  }
-  
-  .about-image-shape {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: coral;
-    height: 100%;
-    /* background-color:  #ff7b00; */
-    border-radius: 50%;
-  }
-  
   .about-image {
-    position: relative;
-    width: 100%;
-    height: 320px;
-    border-radius: 8px;
-    z-index: 10;
-    border-radius: 50%;
+      height: 280px; /* Smaller image on very small screens */
+      margin-bottom: 30px;
   }
+}

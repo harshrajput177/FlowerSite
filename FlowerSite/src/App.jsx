@@ -1,9 +1,12 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
-import Navbar from './Navbar'
-import './App.css'
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Navbar from './Navbar';
+import './App.css';
 import Home from './Page/HomePage';
+import About from './Page/AboutPage';
+import Service from './Page/Services';
 import Footer from './Footer';
+import Contact from './Page/ContactPage';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -11,18 +14,13 @@ function App() {
   return (
     <>
    <Navbar />
-     <Router>
      <Routes>
-
      <Route path="/"  element={<Home />}></Route>
-      {/* <Route path="/Admin-Paneel-Product"  element={<AdminPannel />}></Route>
-      <Route path="/Front-cards-Product"  element={<Cards />}></Route>
-      <Route path="/Category-Front-cards"  element={<Category />}></Route>
-      <Route path="/edit-product"  element={<EditProduct />}></Route>
-      <Route path="/category/:category"  element={<ShowCategory />}></Route> */}
+     <Route path="/about"  element={<About />}></Route>
+     <Route path="/occasions"  element={<Service />}></Route>
+     <Route path="/contact"  element={<Contact />}></Route>
      </Routes>
-     </Router>
-      <Footer />
+     <Footer />
      </>
    
        

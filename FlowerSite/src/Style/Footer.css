@@ -31,25 +31,23 @@
   }
   
   .footer-description {
+    font-size: 0.8rem;
+    color: gray;
+    line-height: 1.6;
     margin-top: 0.5rem;
   }
   
   .social-icons {
     display: flex;
     gap: 1rem;
+    color: rgb(15, 15, 15);
     margin-top: 1rem;
-  }
-
-  .icon {
-    font-size: 1.2rem;
     cursor: pointer;
   }
 
-  .icon:hover{
+  .social-icon:hover{
     color: coral;
-
   }
-
   .contact-item:hover{
     color: coral;
   }
@@ -75,6 +73,11 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    color: rgb(14, 14, 14);
+  }
+
+  .contact-item span{
+    color: rgb(34, 34, 34);
   }
   
   .footer-bottom {

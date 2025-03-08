@@ -1,0 +1,50 @@
+.awards-recognition {
+    scroll-margin-top: 120px;
+    padding: 6vw 8vw;
+    text-align: center;
+  }
+  
+  .awards-recognition__title {
+    font-family: 'PoppinsExtraBold';
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .awards-recognition__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+    gap: 20px;
+  }
+  
+  .text_About_C9{
+    margin-bottom: 2.8vw;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #111112;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
+   
+  }
+  
+  .blue-text_C9 {
+    color: #2C3192; /* Adjust to match red */
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .text_About_C9{
+      margin: 25px  0;
+      text-align: center;
+      font-size: 1.6rem;
+    }
+    .awards-recognition{
+      padding: 10px;
+    }
+
+    .awards-recognition__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+  }
