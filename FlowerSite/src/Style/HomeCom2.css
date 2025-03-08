@@ -7,7 +7,7 @@ body {
 
 .catalog-container {
   background-color: #fff;
-  padding: 40px 20px;
+  padding: 40px 2vw;
   text-align: center;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .catalog-carousel {
-  max-width: 1200px;
+  max-width: 77vw;
   margin: 0 auto;
 }
 
@@ -44,7 +44,7 @@ body {
 
 .card-image-flower {
   width: 100%;
-  height: 200px;
+  height: 19vw;
   object-fit: cover;
   border-radius: 50%;
 }
