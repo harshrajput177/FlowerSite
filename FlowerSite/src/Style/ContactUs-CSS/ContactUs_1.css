@@ -144,6 +144,7 @@
   .outerPart-Contact-info {
     flex-direction: column;
     height: auto;
+    width: 93%;
     padding: 1rem;
   }
 }
