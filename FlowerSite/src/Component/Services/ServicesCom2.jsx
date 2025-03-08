@@ -1,87 +1,74 @@
 import React from 'react';
-import ImageCard1 from '../../Image/IMG-20250301-WA0013.jpg'; 
-import ImageCard2 from '../../Image/ee77066ff7b93c49b879816b0b88567e.jpg'; 
-import ImageCard3 from '../../Image/WhatsApp Image 2025-03-01 at 12.45.12_e8f6556b.jpg'; 
-import ImageCard4 from '../../Image/IMG-20250301-WA0015.jpg'; 
-import ImageCard5 from '../../Image/WhatsApp Image 2025-03-01 at 12.45.13_1c5d5a2d.jpg'; 
-import ImageCard6 from '../../Image/IMG-20250301-WA0029.jpg'; 
-import ImageCard7 from '../../Image/WhatsApp Image 2025-03-01 at 12.47.31_8b6abaa2.jpg'; 
-import ImageCard8 from '../../Image/IMG-20250301-WA0011.jpg'; 
-import ImageCard9 from '../../Image/a511aa328b584c5a14a21f11b030ded5.jpg'; 
-import ImageCard10 from '../../Image/WhatsApp Image 2025-03-01 at 12.45.06_f3d97a18.jpg'; 
-import '../../Style/Services-CSS/ServicesCom2.css'; // CSS for grid layout
+import ImageCard1 from '../../Image/IMG-20250301-WA0013.jpg';
+import ImageCard2 from '../../Image/ee77066ff7b93c49b879816b0b88567e.jpg';
+import ImageCard3 from '../../Image/WhatsApp Image 2025-03-01 at 12.45.12_e8f6556b.jpg';
+import ImageCard4 from '../../Image/IMG-20250301-WA0015.jpg';
+import ImageCard5 from '../../Image/WhatsApp Image 2025-03-01 at 12.45.13_1c5d5a2d.jpg';
+import ImageCard6 from '../../Image/IMG-20250301-WA0029.jpg';
+import ImageCard7 from '../../Image/WhatsApp Image 2025-03-01 at 12.47.31_8b6abaa2.jpg';
+import ImageCard8 from '../../Image/IMG-20250301-WA0011.jpg';
+import ImageCard9 from '../../Image/a511aa328b584c5a14a21f11b030ded5.jpg';
+import ImageCard10 from '../../Image/WhatsApp Image 2025-03-01 at 12.45.06_f3d97a18.jpg';
+import '../../Style/Services-CSS/ServicesCom2.css';
 import RecognitionCard from './ServicesCom3';
 
 const AboutC9 = () => {
   const recognitionData = [
     {
-      image: ImageCard1, // Corrected image reference
+      image: ImageCard1,
       title: 'Diwali Collection',
-      description: 'The KBD Juniors team from Mount Litera Zee School emerged as National Champions in the Star Sports Pro Kabaddi Tournament, showcasing their unparalleled skill, teamwork, and determination. Competing on a national stage, the team demonstrated exceptional strategic gameplay and agility, earning them this prestigious title.',
-     
+      description: 'Make your Diwali celebrations even more special with our exquisite flower decorations. We provide vibrant and creative floral designs to illuminate your space with festive charm and joy.',
     },
     {
-      image: ImageCard2, // Use another image or same based as above
+      image: ImageCard2,
       title: 'Father Day',
-      description: 'The Under-19 Boys team of Mount Litera Zee School emerged victorious in the CBSE Cluster tournament, displaying exceptional athletic skills and teamwork. Competing against strong opponents, the team exhibited unparalleled determination, strategic gameplay, and sportsmanship. This victory underscores the school’s dedication to nurturing young talent and providing a robust platform for students to shine in sports while balancing their academic pursuits.',
-   
+      description: 'Celebrate Father’s Day with our bespoke floral arrangements. Our designs add a touch of elegance and warmth, creating the perfect ambiance to honor your loved ones.',
     },
     {
-      image: ImageCard3, // Use another image or same based as above
+      image: ImageCard3,
       title: 'Mother Day',
-      description: 'Students of Mount Litera Zee School displayed outstanding martial arts skills to emerge as winners at the Karate Championship hosted by The Royal Challengers. Their disciplined training, focus, and perseverance stood out, earning them the top spot in this prestigious competition.14. This achievement reflects the school’s emphasis on developing physical fitness, discipline, and sportsmanship,.',
-  
+      description: 'Express love and gratitude on Mother’s Day with our beautiful flower decorations. We create thoughtful and heartwarming floral designs to make the day unforgettable.',
     },
     {
-      image: ImageCard4, // Use another image or same based as above
-      title: 'crismistmas Day',
-      description: 'The Entrepreneur Meet hosted by Mount Litera Zee School, Bihta was a landmark event that provided a unique platform for students to explore and develop entrepreneurial skills. With a focus on innovation and problem-solving, the event encouraged participants to present creative business ideas and strategies. This initiative not only inspired students to think outside the box but also instilled in them a sense of confidence and leadership, fostering a generation of future entrepreneurs and leaders.',
+      image: ImageCard4,
+      title: 'Christmas Day',
+      description: 'Bring the magic of Christmas to life with our creative flower decorations. Our festive designs transform any space into a winter wonderland.',
     },
     {
-      image: ImageCard5, // Use another image or same based as above
+      image: ImageCard5,
       title: 'Anniversary Flower',
-      description: 'Students of Mount Litera Zee School, Bihta displayed outstanding martial arts skills to emerge as winners at the Karate Championship hosted by The Royal Challengers. Their disciplined training, focus, and perseverance stood out, earning them the top spot in this prestigious competition. This achievement reflects the school’s emphasis on developing physical fitness, discipline, and sportsmanship, shaping students into resilient and determined individuals ready to take on challenges.',
+      description: 'Celebrate anniversaries with our romantic and elegant flower arrangements. We design bespoke floral displays that add a special touch to your celebrations.',
     },
     {
-      image: ImageCard6, // Use another image or same based as above
-      title: 'valentine day',
-      description: 'The Under-19 Boys team of Mount Litera Zee School, Bihta emerged victorious in the CBSE Cluster tournament, displaying exceptional athletic skills and teamwork. Competing against strong opponents, the team exhibited unparalleled determination, strategic gameplay, and sportsmanship. This victory underscores the school’s dedication to nurturing young talent and providing a robust platform for students to shine in sports while balancing their academic pursuits.',
+      image: ImageCard6,
+      title: 'Valentine Day',
+      description: 'Add romance to Valentine’s Day with our stunning floral decorations. We create the perfect setting with beautiful flowers and creative designs.',
     },
     {
-      image: ImageCard7, // Use another image or same based as above
+      image: ImageCard7,
       title: 'Love',
-      description: ' Mount Litera Zee School Bihta’s Kabaddi team earned the prestigious title of “KABADDI King” at the CBSE Cluster competition, solidifying their position as champions. Their outstanding performance, marked by agility, teamwork, and tactical brilliance, captivated the audience and left an indelible mark on the tournament. This achievement not only brought immense pride to the school but also reinforced its reputation for fostering excellence in sports and creating champions who excel on and off the field..',
+      description: 'Our floral designs convey love and affection through elegant arrangements. Perfect for any occasion where you want to express your heartfelt emotions.',
     },
     {
-      image: ImageCard8, // Use another image or same based as above
-      title: 'ganesh chaturthi Puja',
-      description: 'The girls’ team from Mount Litera Zee School showcased their strength and coordination to secure victory in the Tug of War event during the Annual Sports Meet. This win reflects the spirit of unity, perseverance, and determination among our students. Such achievements highlight the school’s commitment to promoting gender equality and empowering young girls to excel in every field, from academics to athletics, fostering confidence ',
-    
+      image: ImageCard8,
+      title: 'Ganesh Chaturthi Puja',
+      description: 'Enhance your Ganesh Chaturthi celebrations with our divine floral decorations. We offer traditional and vibrant designs for a sacred ambiance.',
     },
     {
-      image: ImageCard9, // Use another image or same based as above
-      title: 'saraswati puja ',
-      description: 'The KBD Juniors team from Mount Litera Zee School, Bihta emerged as National Champions in the Star Sports Pro Kabaddi Tournament, showcasing their unparalleled skill, teamwork, and determination. Competing on a national stage, the team demonstrated exceptional strategic gameplay and agility, earning them this prestigious title. This victory not only brought immense pride to the school but also highlighted its emphasis on nurturing sports talent and fostering a winning mindset among students.',
-  
-    }, {
-      image: ImageCard10, // Use another image or same based as above
-      title: 'Raksha Bandhan ',
-      description: 'Mount Litera Zee School proudly received a Memento of Participation at the CBSE Cluster Volleyball Tournament. This award recognizes the enthusiasm, teamwork, and dedication displayed by our students during the competition. Participating in this prestigious event provided students with an excellent opportunity to hone their skills, gain competitive exposure, and showcase their sportsmanship',
-   
+      image: ImageCard9,
+      title: 'Saraswati Puja',
+      description: 'Our flower decorations for Saraswati Puja reflect purity and devotion. We provide beautifully crafted floral designs that complement the spiritual setting.',
     },
-   
+    {
+      image: ImageCard10,
+      title: 'Raksha Bandhan',
+      description: 'Create a welcoming and festive environment for Raksha Bandhan with our colorful and artistic flower decorations. Celebrate the bond of love with our creative designs.',
+    },
   ];
-
 
   return (
     <div id='Awards-section' className="awards-recognition">
-        <h1  className="text_About_C9">
-       All Services
-        </h1>
-       {/* <div className="lines_C9">
-        <div className="line_C9 black-line_C9"></div>
-        <div className="line_C9 red-line_C9"></div>
-      </div> */}
+      <h1 className="text_About_C9">All Services</h1>
       <div className="awards-recognition__grid">
         {recognitionData.map((item, index) => (
           <RecognitionCard key={index} {...item} />
