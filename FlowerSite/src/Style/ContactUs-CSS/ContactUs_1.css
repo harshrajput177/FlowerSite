@@ -119,33 +119,30 @@
     font-size: 1rem;
   }
 
-  .contact-form {
-    flex-direction: column;
+  .contact-button {
+    margin-bottom: 30vw;
   }
 
   .contact-input {
-    width: 100%;
-    max-width: 300px;
+    width: 80vw;
   }
 
   .contact-info {
+    width:90vw;
+    height: 110vw;
     flex-direction: column;
-    width: 100%;
     padding: 1rem;
-    position: static;
   }
 
   .info-item {
-    width: 100%;
-    max-width: 200px;
+    width: 100px;
+    height: 100px;
     top: 0;
-    margin-bottom: 1rem;
   }
 
   .outerPart-Contact-info {
-    flex-direction: column;
-    height: auto;
-    width: 93%;
-    padding: 1rem;
+    height: 50vh;
+    padding: 2rem 1rem;
   }
 }
+
