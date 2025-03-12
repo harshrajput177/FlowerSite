@@ -24,30 +24,27 @@ const ReasonToChoose = () => {
           <div className="card-item">
             <AttachMoneyIcon className="AboutCom2-icon" />
             <div>
-              <h3 className="card-title">Cost Effective</h3>
+              <h3 className="card-title">Affordable Pricing</h3>
               <p className="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                varius enim in eros elementum tristique.
+                We provide stunning flower decorations at budget-friendly prices, ensuring elegance and beauty without breaking the bank.
               </p>
             </div>
           </div>
           <div className="card-item">
             <LocationOnIcon className="AboutCom2-icon" />
             <div>
-              <h3 className="card-title">Good Location</h3>
+              <h3 className="card-title">Service at Any Location</h3>
               <p className="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                varius enim in eros elementum tristique.
+                Whether it's a grand event, a school function, or a private party, we bring our exceptional flower decoration services to any location of your choice.
               </p>
             </div>
           </div>
           <div className="card-item">
             <AddTaskIcon className="AboutCom2-icon" />
             <div>
-              <h3 className="card-title">Trust Worthy</h3>
+              <h3 className="card-title">Reliable & Creative</h3>
               <p className="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                varius enim in eros elementum tristique.
+                Our experienced team ensures timely and artistic floral setups, turning any space into a breathtaking masterpiece with fresh and vibrant flowers.
               </p>
             </div>
           </div>

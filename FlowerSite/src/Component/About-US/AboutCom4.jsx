@@ -7,21 +7,22 @@ import { motion } from 'framer-motion';
 
 const statsData = [
   {
-    icon: <HomeIcon className='AboutCom-4-icon' size={48} />, 
+    icon: <HomeIcon className='AboutCom-4-icon' fontSize="large" />, 
     count: '10K+', 
     label: 'Design Listed'
   },
   {
-    icon: <PeopleAltIcon className='AboutCom-4-icon' size={48} />, 
+    icon: <PeopleAltIcon className='AboutCom-4-icon' fontSize="large" />, 
     count: '50K+', 
     label: 'Customers World Wide'
   },
   {
-    icon: <TagFacesIcon className='AboutCom-4-icon' size={48} />, 
+    icon: <TagFacesIcon className='AboutCom-4-icon' fontSize="large" />, 
     count: '30K+', 
     label: 'Happy Customers'
   }
 ];
+
 
 const ImprovedFrontendStats = () => {
   return (

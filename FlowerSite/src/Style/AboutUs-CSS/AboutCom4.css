@@ -32,7 +32,8 @@
   }
   
   .AboutCom-4-icon{
-    color: #1c9147; 
+    color: #464646; 
+    font-size: 2.6rem !important;
   }
   
   .AboutCom-4-count {
@@ -48,7 +49,9 @@
   }
   
   .AboutCom-4-description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 0.8rem;
+    line-height: 1.4;
     color: #6b7280; /* Gray color */
     margin-top: 0.5rem;
   }
