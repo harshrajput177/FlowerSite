@@ -19,10 +19,10 @@ const FlowerShopHeroSection = () => {
           The Ultimate <span className="highlight">Flower</span> Shopping Destination
         </h1>
         <p className="hero-description">
-          Lorem ipsum dolor sit amet consectetur. Tincidunt eu purus risus dolor pharetra tristique pulvinar.
+          Elevate your spaces with our exquisite floral arrangements. From elegant bouquets to grand event decorations, we bring beauty and freshness to every occasion.
         </p>
         <div className="button-group">
-          <button className="shop-button"   onClick={() => navigate('/occasions')}>Order now</button>
+          <button className="shop-button" onClick={() => navigate('/occasions')}>Order now</button>
           <button className="View-all-link" onClick={() => navigate('/occasions')}>
             View all products
           </button>
