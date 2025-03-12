@@ -30,7 +30,8 @@ const Navbar = () => {
       </ul>
       <div className="icons-flower">
         <LocalPhoneIcon className='Flower-icon' />
-        <p>+91 9458006097</p>
+        <p>+91 8076187651
+        </p>
       </div>
     </nav>
   );

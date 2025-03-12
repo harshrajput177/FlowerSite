@@ -16,6 +16,7 @@
 }
 
 .View-all-link {
+  cursor: pointer;
   padding: 10px 22px;
   background-color: #dedede87;
   border: 1px solid rgba(0, 0, 0, 0.74);
@@ -54,6 +55,7 @@
 }
 
 .shop-button {
+  cursor: pointer;
   background-color: coral;
   color: white;
   font-weight: bold;

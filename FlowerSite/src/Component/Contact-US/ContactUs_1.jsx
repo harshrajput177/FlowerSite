@@ -18,19 +18,20 @@ const ContactUsComponent = () => {
       <div className='outerPart-Contact-info'>
         <div className="contact-info">
           <div className="info-item">
-            <DirectionsWalkIcon className="info-icon" />
-            <h3>ABOUT CLUB</h3>
-            <p>Running Guide<br />Workouts</p>
+            <DirectionsWalkIcon className="info-icon  about-icon" />
+            <h3>ABOUT DECORATION</h3>
+            <p>We specialize in event decoration, <br />adding beauty with flowers<br /> Whether it's a wedding, birthday, anniversary</p>
           </div>
           <div className="info-item">
-            <CallIcon className="info-icon" />
+            <CallIcon className="info-icon  phone-icons-part" />
             <h3>PHONE (LANDLINE)</h3>
-            <p>+ 912 3 567 8987<br />+ 912 5 252 3336</p>
+            <p>+91 8076187651
+            </p>
           </div>
           <div className="info-item">
-            <LocationOnIcon className="info-icon" />
+            <LocationOnIcon className="info-icon   phone-icons-part" />
             <h3>LOCATION</h3>
-            <p>The Interior Design Studio Company </p>
+            <p>Noida sector 62 near by mithas</p>
           </div>
         </div>
       </div>

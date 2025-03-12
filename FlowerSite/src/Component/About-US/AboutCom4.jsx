@@ -8,12 +8,12 @@ import { motion } from 'framer-motion';
 const statsData = [
   {
     icon: <HomeIcon className='AboutCom-4-icon' size={48} />, 
-    count: '50K+', 
-    label: 'Properties Listed'
+    count: '10K+', 
+    label: 'Design Listed'
   },
   {
     icon: <PeopleAltIcon className='AboutCom-4-icon' size={48} />, 
-    count: '100K+', 
+    count: '50K+', 
     label: 'Customers World Wide'
   },
   {

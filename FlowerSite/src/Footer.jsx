@@ -21,7 +21,6 @@ export default function Footer() {
             <FacebookIcon className="social-icon" />
             <InstagramIcon className="social-icon" />
             <WhatsAppIcon className="social-icon" />
-            {/* <FaGooglePlusG className="icon" /> */}
           </div>
         </div>
 
@@ -39,16 +38,16 @@ export default function Footer() {
         <div className="footer-section">
           <h3 className="footer-heading">CONTACT</h3>
           <ul   className="footer-ul">
-            <li className="contact-item"><EmailIcon /><span>abc@gmail.com</span></li>
-            <li className="contact-item"><LocalPhoneIcon /><span>+92 3488 400 155</span></li>
-            <li className="contact-item"><LocationOnIcon /> <span>New York – 1075 Firs Avenue</span></li>
+            <li className="contact-item"><EmailIcon /><span>Kum.ritesh1999@gmail.com</span></li>
+            <li className="contact-item"><LocalPhoneIcon /><span>8076187651            </span></li>
+            <li className="contact-item"><LocationOnIcon /> <span>Noida sector 62 near by mithas</span></li>
           </ul>
         </div>
 
         
       </div>
       <div className="footer-bottom">
-        © 2025 All Rights Reserved. Design by Salman.UI UX
+        © 2025 All Rights Reserved. Ritesh Kumar
       </div>
     </footer>
   );

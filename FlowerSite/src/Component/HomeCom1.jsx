@@ -4,8 +4,11 @@ import img1 from '../Image/596c934c9b385073fb827ffa92f328a5.jpg';
 import img2 from '../Image/596c934c9b385073fb827ffa92f328a5.jpg';
 import img3 from '../Image/istockphoto-1313502972-612x612.jpg';
 import img4 from '../Image/81ohzMU6N0L-removebg-preview.png';
+import { useNavigate } from 'react-router-dom';
 
 const FlowerShopHeroSection = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="hero-section">
       <div className="hero-content">
@@ -19,8 +22,10 @@ const FlowerShopHeroSection = () => {
           Lorem ipsum dolor sit amet consectetur. Tincidunt eu purus risus dolor pharetra tristique pulvinar.
         </p>
         <div className="button-group">
-          <button className="shop-button">Shop now</button>
-          <button className="View-all-link">View all products</button>
+          <button className="shop-button"   onClick={() => navigate('/occasions')}>Order now</button>
+          <button className="View-all-link" onClick={() => navigate('/occasions')}>
+            View all products
+          </button>
         </div>
         <div className="rating-section">
           <div className="user-images">
